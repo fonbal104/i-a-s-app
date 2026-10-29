@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+**/node_modules/
+# Build output
+dist/
+# Environment files: ignore private/local variants
+.env
+.env.*
+!.env.example
+!.env.sample
+# Common generated/system files
+.vercel/
+.DS_Store
+*.log
+# Server-only secret configuration
+contact-config.php
